@@ -1,0 +1,43 @@
+{
+  "name": "frontend-hiring-challenge",
+  "version": "1.0.0",
+  "description": "Leap test",
+  "main": "src/index",
+  "repository": "",
+  "author": "",
+  "license": "",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.7",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "babel-core": "6.26.*",
+    "babel-loader": "7.1.*",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.*",
+    "css-loader": "2.1.*",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "0.23.*",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "packageManager": "yarn@3.5.1"
+}
