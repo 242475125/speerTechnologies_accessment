@@ -24,8 +24,8 @@ body {
   max-width: 35vw;
 }
 .tabs-menu .item{
-  width: 6vw;
-  min-width: 6vw;
+  width: 100px;
+  min-width: 100px;
 }
 
 .warp-word{
